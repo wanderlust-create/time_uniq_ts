@@ -5,5 +5,5 @@ const route = Router();
 export default (app: Router) => {
   app.use("/events", route);
 
-  route.get("/", EventController.listAllEvents);
+  route.get("/", EventController.listAllGoogleCalendarEventsForDay);
 }
