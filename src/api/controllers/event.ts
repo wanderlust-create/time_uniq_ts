@@ -1,11 +1,9 @@
 import * as express from "express";
 
-
 export default {
-  listAllEvents,
+  listAllGoogleCalendrEventsForDay,
 };
 
-async function listAllEvents() {
-  console.log("listAllEvents")
+async function listAllGoogleCalendrEventsForDay() {
+  console.log("listAllEvents");
 }
-
